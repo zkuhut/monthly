@@ -1,0 +1,21 @@
+{
+  "name": "monthly",
+  "version": "1.0.0",
+  "repository": "git@github.com:zkuorg/monthly.git",
+  "license": "CC0 1.0",
+  "scripts": {
+    "dev": "vitepress dev posts",
+    "build": "vitepress build posts",
+    "serve": "vitepress serve posts",
+    "user": "esno scripts/user.ts"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^16.11.1",
+    "chalk": "^4.1.2",
+    "consola": "^2.15.3",
+    "esno": "^0.10.1",
+    "minimist": "^1.2.5",
+    "vitepress": "^0.20.0"
+  }
+}
