@@ -1,5 +1,5 @@
 .DS_Store
-.vitepress/dist
+dist
 
 node_modules
 *.log

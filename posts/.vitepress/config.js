@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Monthly',
   description: '',
-  base: '/',
+  base: '/monthly',
 
   themeConfig: {
 		docsDir: 'posts',
