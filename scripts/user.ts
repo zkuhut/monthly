@@ -27,7 +27,7 @@ async function createUser() {
   console.log();
   fs.mkdirSync(aboutDir, { recursive: true });
   fs.writeFileSync(`${aboutDir}/index.md`, `# About ${username}\n`);
-  fs.appendFileSync(`${postsDir}/index.md`, `- [${username}](./${username}/about/)\n`)
+  fs.appendFileSync(`${postsDir}/guide/index.md`, `- [${username}](../${username}/about/)\n`)
   consola.success('User created successfully!');
   consola.info(chalk.bgGray`Workspace ~>`, chalk.yellow`/posts/${username}/\n`);
 }
