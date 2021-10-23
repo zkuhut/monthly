@@ -15,6 +15,7 @@ jobs:
         with:
           node-version: '14'
       - run: yarn
+      - run: yarn env --base=${{ secrets.BASE_PATH }}
       - run: yarn build
 
       - name: Deploy
