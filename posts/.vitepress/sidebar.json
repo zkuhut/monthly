@@ -4,11 +4,5 @@
       "text": "About",
       "link": "/lencx/about/"
     }
-  ],
-  "/test/": [
-    {
-      "text": "About",
-      "link": "/test/about/"
-    }
   ]
 }

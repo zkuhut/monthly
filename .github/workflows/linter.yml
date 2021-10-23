@@ -1,0 +1,26 @@
+name: Lint Markdown
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Markdown
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Lint Markdown
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          LINTER_RULES_PATH: /
+          MARKDOWN_CONFIG_FILE: .markdownlint.yaml
+          FILTER_REGEX_INCLUDE: .*posts/.*.md
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
