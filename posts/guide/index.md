@@ -18,4 +18,6 @@
 - [xiaofuyesnew](../xiaofuyesnew/about/)
 - [promiseLC](../promiseLC/about/)
 - [juvenile](../juvenile/about/)
+- [alphaz](../alphaz/about/)
+- [jexlau](../jexlau/about/)
 - [gssggssg](../gssggssg/about/)
