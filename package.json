@@ -4,10 +4,12 @@
   "repository": "git@github.com:zkuorg/monthly.git",
   "license": "CC0 1.0",
   "scripts": {
-    "dev": "vitepress dev posts",
-    "build": "vitepress build posts",
+    "dev": "npm run toc && vitepress dev posts",
+    "build": "npm run toc && vitepress build posts",
     "serve": "vitepress serve posts",
-    "user": "esno scripts/user.ts"
+    "user": "esno scripts/user.ts",
+    "toc": "esno scripts/sidebar.ts",
+    "env": "esno scripts/env.ts"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.2",
@@ -15,6 +17,7 @@
     "chalk": "^4.1.2",
     "consola": "^2.15.3",
     "esno": "^0.10.1",
+    "fast-glob": "^3.2.7",
     "minimist": "^1.2.5",
     "vitepress": "^0.20.0"
   }
