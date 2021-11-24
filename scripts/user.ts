@@ -45,7 +45,7 @@ async function createUser() {
   }
 
   fs.writeFileSync(`${aboutDir}/index.md`, `# About ${username}\n`);
-  fs.appendFileSync(`${postsRoot}/guide/index.md`, `- [${username}](../${username}/about/)\n`)
+  // fs.appendFileSync(`${postsRoot}/guide/index.md`, `- [${username}](../${username}/about/)\n`);
   consola.info(chalk.green`[Workspace]`, chalk.grey`~>`, chalk.yellow`/posts/${username}/`);
   consola.success(`${username} created successfully!\n`);
 }
