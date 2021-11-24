@@ -14,5 +14,15 @@
       "text": "About",
       "link": "/lencx/about/"
     }
+  ],
+  "/sansx/": [
+    {
+      "text": "About",
+      "link": "/sansx/about/"
+    },
+    {
+      "text": "Feynman_Technique",
+      "link": "/sansx/Feynman_Technique/"
+    }
   ]
 }
