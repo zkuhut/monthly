@@ -1,4 +1,14 @@
 {
+  "/AshesOfHistory/": [
+    {
+      "text": "About",
+      "link": "/AshesOfHistory/about/"
+    },
+    {
+      "text": "vue表单N选一必填逻辑",
+      "link": "/AshesOfHistory/vue_form_N_select_1/"
+    }
+  ],
   "/lencx/": [
     {
       "text": "About",
