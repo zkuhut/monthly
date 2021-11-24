@@ -1,4 +1,14 @@
 {
+  "/gssggssg/": [
+    {
+      "text": "About",
+      "link": "/gssggssg/about/"
+    },
+    {
+      "text": "JavaScript事件捕获冒泡与捕获",
+      "link": "/gssggssg/TheEvent/"
+    }
+  ],
   "/lencx/": [
     {
       "text": "About",
