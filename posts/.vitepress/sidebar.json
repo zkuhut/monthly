@@ -142,5 +142,15 @@
       "text": "从零开始搭建一个vite+vue3项目",
       "link": "/xiaofuyesnew/handleVite/"
     }
+  ],
+  "/zen/": [
+    {
+      "text": "About",
+      "link": "/zen/about/"
+    },
+    {
+      "text": "Basic Skills",
+      "link": "/xiaofuyesnew/BasicSkills/"
+    }
   ]
 }
