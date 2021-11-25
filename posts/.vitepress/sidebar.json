@@ -73,5 +73,15 @@
       "text": "Basic Skills",
       "link": "/xiaofuyesnew/BasicSkills/"
     }
+  ],
+  "/zen/": [
+    {
+      "text": "About",
+      "link": "/zen/about/"
+    },
+    {
+      "text": "Basic Skills",
+      "link": "/xiaofuyesnew/BasicSkills/"
+    }
   ]
 }
