@@ -4,32 +4,50 @@ import chalk from 'chalk';
 import consola from 'consola';
 import minimist from 'minimist';
 
+import { postsRoot } from './utils';
+
 const argv = minimist(process.argv.slice(2));
 
-const postsDir = path.resolve(__dirname, '../posts');
 const username = argv._[0];
 
 async function createUser() {
   if (!username) {
-    consola.error('Missing username!');
+    consola.error(`missing username!`);
     process.exit();
   }
 
-  const userDir = path.join(postsDir, username);
+  const userDir = path.join(postsRoot, username);
   const aboutDir = path.join(userDir, 'about');
+  const tocFile = path.join(userDir, 'toc.ts');
   const isExist = fs.existsSync(userDir);
+  const isTocExist = fs.existsSync(tocFile);
+
+  if (!fs.existsSync(userDir)) {
+    fs.mkdirSync(aboutDir, { recursive: true });
+  }
+
+  if (!isTocExist) {
+    fs.writeFileSync(tocFile, `export default {
+  '/${username}/': [
+    { text: 'About', link: '/${username}/about/' },
+    // other post links
+  ],
+} as TOC;
+`);
+    console.log();
+    consola.info(chalk.green`[TOC]`, chalk.grey`~>`, chalk.yellow`/posts/${username}/toc.ts`);
+    if (isExist) return;
+  }
 
   if (isExist) {
-    consola.warn('Username already exists!');
+    consola.warn(`${username} already exists!`);
     process.exit();
   }
 
-  console.log();
-  fs.mkdirSync(aboutDir, { recursive: true });
   fs.writeFileSync(`${aboutDir}/index.md`, `# About ${username}\n`);
-  fs.appendFileSync(`${postsDir}/index.md`, `- [${username}](./${username}/about/)\n`)
-  consola.success('User created successfully!');
-  consola.info(chalk.bgGray`Workspace ~>`, chalk.yellow`/posts/${username}/\n`);
+  // fs.appendFileSync(`${postsRoot}/guide/index.md`, `- [${username}](../${username}/about/)\n`);
+  consola.info(chalk.green`[Workspace]`, chalk.grey`~>`, chalk.yellow`/posts/${username}/`);
+  consola.success(`${username} created successfully!\n`);
 }
 
 async function cli() {
