@@ -9,7 +9,7 @@ const navItems = Object.keys(sidebar).map((i) => ({
 
 module.exports = {
   title: 'Monthly',
-  description: '',
+  description: '臻，至也；苦，始也。',
   base: env.base,
 
   head: [
@@ -42,7 +42,7 @@ module.exports = {
   themeConfig: {
 		docsDir: 'posts',
     repo: 'zkuorg/monthly',
-    repoLabel: '点 ⭐️ 不迷路',
+    repoLabel: '⭐️ 不迷路',
     docsBranch: 'main',
     editLinks: true,
     editLinkText: 'Edit this page',

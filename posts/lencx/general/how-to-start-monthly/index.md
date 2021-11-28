@@ -4,6 +4,30 @@
 
 项目基于 [github](https://github.com) + [github pages](https://pages.github.com/) + [github actions](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions) + [vitepress](https://vitepress.vuejs.org/) 构建，网站请访问 [《臻苦舍月刊》](https://zkuhut.github.io/monthly/)
 
+```bash
+[monthly] # 仓库结构
+|- [posts] # 文章根目录
+|     |- [.vitepress] # vitepress
+|     |- [user_1] # user_1 目录
+|     |     |- [category] # 如果内容复杂，建议分类，后再创建文章目录
+|     |     |- [post_1] # 文章 1 目录
+|     |     |     |- [assets] # 文章_1 相关资源，无资源可省略
+|     |     |     `- index.md # 文章_1 正文
+|     |     |- [post_2] # 文章_2 目录
+|     |     `- [about] # 自我介绍
+|     |           |- [assets] # 相关资源，无资源可省略
+|     |           `- index.md # 自我介绍
+|     |- [user_1] # user_2 目录
+|     `- [guide] # 序
+|- [scripts] # 辅助脚本
+|     |- [user.ts] # 初始化用户
+|     `- ...
+|- [node_modules]
+|- package.json
+|- README.md
+`...
+```
+
 ## 快速开始
 
 ### Step1
@@ -37,7 +61,7 @@ yarn user <username>
 
 # 5. 如果需要自定义用户样式
 # 会在根结点为 `#app` 的 div 上生成名为 `<username>-app` 的 class
-# <div id="app" class="<username>-app">...</idv>
+# <div id="app" class="<username>-app">...</div>
 yarn style <username>
 ℹ [style] ~> /posts/<username>/user.scss
 ✔ user.scss created successfully!
@@ -47,30 +71,6 @@ yarn dev
 
 # 7. 校验 markdown
 yarn lint
-```
-
-```bash
-[monthly] # 仓库结构
-|- [posts] # 文章根目录
-|     |- [.vitepress] # vitepress
-|     |- [user_1] # user_1 目录
-|     |     |- [category] # 如果内容复杂，建议分类，后再创建文章目录
-|     |     |- [post_1] # 文章 1 目录
-|     |     |     |- [assets] # 文章_1 相关资源，无资源可省略
-|     |     |     `- index.md # 文章_1 正文
-|     |     |- [post_2] # 文章_2 目录
-|     |     `- [about] # 自我介绍
-|     |           |- [assets] # 相关资源，无资源可省略
-|     |           `- index.md # 自我介绍
-|     |- [user_1] # user_2 目录
-|     `- [guide] # 序
-|- [scripts] # 辅助脚本
-|     |- [user.ts] # 初始化用户
-|     `- ...
-|- [node_modules]
-|- package.json
-|- README.md
-`...
 ```
 
 ### Step4
