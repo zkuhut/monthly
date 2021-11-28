@@ -1,0 +1,1 @@
+import('../lencx/user.scss');
