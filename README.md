@@ -18,4 +18,4 @@
 
 ## License
 
-CC0 1.0 Licensed | Copyright © 2021-present @zkuorg
+CC0 1.0 Licensed | Copyright © 2021-present @臻苦舍
