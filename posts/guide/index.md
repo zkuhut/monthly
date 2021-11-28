@@ -16,4 +16,4 @@
 
 点击右上角的 `✍️ 作者` 开始阅读
 
-我想参与打卡，请阅读[《怎样贡献一篇文章？》](/lencx/general/how-to-start-monthly/)
+我想参与打卡，请阅读[《怎样贡献一篇文章？》](../lencx/general/how-to-start-monthly/)
