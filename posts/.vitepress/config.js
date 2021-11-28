@@ -12,6 +12,33 @@ module.exports = {
   description: '',
   base: env.base,
 
+  head: [
+    ['script', {
+      src: 'https://giscus.app/client.js',
+      async: 'true',
+      'data-repo': 'zkuhut/monthly',
+      'data-repo-id': 'R_kgDOGO-xdQ',
+      'data-category': 'Comments',
+      'data-category-id': 'DIC_kwDOGO-xdc4CADo4',
+      'data-mapping': 'pathname',
+      'data-reactions-enabled': '1',
+      'data-emit-metadata': '0',
+      'data-theme': 'light',
+      // 'data-lang': 'zh-CN',
+      'crossorigin': 'anonymous',
+    }],
+  ],
+
+
+  markdown: {
+    // lineNumbers: true,
+    toc: { includeLevel: [1, 2, 3, 4] },
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
+
   themeConfig: {
 		docsDir: 'posts',
     repo: 'zkuorg/monthly',

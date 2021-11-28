@@ -1,5 +1,5 @@
-import path from 'path';
 import fs from 'fs';
+import path from 'path';
 
 // Path
 export const postsRoot = path.resolve(__dirname, '../posts');
