@@ -58,5 +58,15 @@
       "text": "About",
       "link": "/xiaofuyesnew/about/"
     }
+  ],
+  "/zen/": [
+    {
+      "text": "About",
+      "link": "/zen/about/"
+    },
+    {
+      "text": "MF",
+      "link": "/zen/mf/"
+    }
   ]
 }
