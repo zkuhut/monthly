@@ -33,6 +33,25 @@
     {
       "text": "About",
       "link": "/lencx/about/"
+    },
+    {
+      "text": "General",
+      "children": [
+        {
+          "text": "怎样贡献一篇文章？",
+          "link": "/lencx/general/how-to-start-monthly/"
+        }
+      ]
+    }
+  ],
+  "/promiseLC/": [
+    {
+      "text": "About",
+      "link": "/promiseLC/about/"
+    },
+    {
+      "text": "redux and redux-toolkit",
+      "link": "/promiseLC/redux-toolkit/"
     }
   ],
   "/sansx/": [

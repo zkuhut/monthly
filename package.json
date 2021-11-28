@@ -1,13 +1,16 @@
 {
   "name": "monthly",
   "version": "1.0.0",
-  "repository": "git@github.com:zkuorg/monthly.git",
+  "author": "lencx",
+  "description": "臻，至也；苦，始也。",
+  "repository": "git@github.com:zkuhut/monthly.git",
   "license": "CC0 1.0",
   "scripts": {
-    "dev": "npm run toc && vitepress dev posts",
+    "dev": "npm run toc && npm run style && vitepress dev posts",
     "build": "npm run toc && vitepress build posts",
     "serve": "vitepress serve posts",
     "user": "esno scripts/user.ts",
+    "style": "esno scripts/style.ts",
     "toc": "esno scripts/sidebar.ts",
     "env": "esno scripts/env.ts",
     "lint": "markdownlint \"**/*.md\" --ignore node_modules"
@@ -19,8 +22,11 @@
     "consola": "^2.15.3",
     "esno": "^0.10.1",
     "fast-glob": "^3.2.7",
+    "markdown-it-task-lists": "^2.1.1",
     "markdownlint-cli": "^0.29.0",
     "minimist": "^1.2.5",
+    "sass": "^1.43.5",
     "vitepress": "^0.20.0"
-  }
+  },
+  "dependencies": {}
 }
