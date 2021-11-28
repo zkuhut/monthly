@@ -9,6 +9,16 @@
       "link": "/AshesOfHistory/vue_form_N_select_1/"
     }
   ],
+  "/Jonithan/": [
+    {
+      "text": "About",
+      "link": "/Jonithan/about/"
+    },
+    {
+      "text": "React单测之Jest与Karma技术栈对比",
+      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
+    }
+  ],
   "/gssggssg/": [
     {
       "text": "About",
@@ -41,6 +51,25 @@
     {
       "text": "About",
       "link": "/lencx/about/"
+    },
+    {
+      "text": "General",
+      "children": [
+        {
+          "text": "怎样贡献一篇文章？",
+          "link": "/lencx/general/how-to-start-monthly/"
+        }
+      ]
+    }
+  ],
+  "/promiseLC/": [
+    {
+      "text": "About",
+      "link": "/promiseLC/about/"
+    },
+    {
+      "text": "redux and redux-toolkit",
+      "link": "/promiseLC/redux-toolkit/"
     }
   ],
   "/sansx/": [
@@ -65,7 +94,7 @@
       "link": "/zen/about/"
     },
     {
-      "text": "MF",
+      "text": "Webpack module fedoration",
       "link": "/zen/mf/"
     }
   ]
