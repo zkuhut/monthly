@@ -1,7 +1,7 @@
 export default {
   '/promiseLC/': [
     { text: 'About', link: '/promiseLC/about/' },
-    { text: 'redux and redux-toolkit', link: '/promiseLC/redux-toolkit/' },
     // other post links
+    { text: 'Redux and Redux-Toolkit', link: '/promiseLC/redux-toolkit/' },
   ],
 } as TOC;
