@@ -34,6 +34,16 @@
       ]
     }
   ],
+  "/promiseLC/": [
+    {
+      "text": "About",
+      "link": "/promiseLC/about/"
+    },
+    {
+      "text": "redux-tookit",
+      "link": "/promiseLC/redux-toolkit/"
+    }
+  ],
   "/sansx/": [
     {
       "text": "About",
