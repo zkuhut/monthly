@@ -1,4 +1,4 @@
-# Monthly
+# 臻苦舍月刊
 
 [![GitHub Super-Linter](https://github.com/zkuorg/monthly/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
@@ -14,7 +14,7 @@
 
 对此我想谈谈自己对于有价值信息的理解。输出文章是为了记录，梳理，引发一些思考及观点。其次才是分享（别太高看自己，你写的东西没几个人会看到的）。用最直白的语言讲清楚一件事或一个东西，就是有价值的信息。
 
-[👉 我要参与](./about.md)
+[👉 我要参与](./posts/lencx/general/how-to-start-monthly/index.md)
 
 ## License
 
