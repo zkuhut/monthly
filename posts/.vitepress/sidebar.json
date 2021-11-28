@@ -23,6 +23,15 @@
     {
       "text": "About",
       "link": "/lencx/about/"
+    },
+    {
+      "text": "General",
+      "children": [
+        {
+          "text": "怎样贡献一篇文章？",
+          "link": "/lencx/general/how-to-start-monthly/"
+        }
+      ]
     }
   ],
   "/sansx/": [
@@ -47,7 +56,7 @@
       "link": "/zen/about/"
     },
     {
-      "text": "MF",
+      "text": "Webpack module fedoration",
       "link": "/zen/mf/"
     }
   ]
