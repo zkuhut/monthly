@@ -8,7 +8,9 @@ function sidebarJSON() {
   const files = fg.sync('**/toc.ts', { cwd: path.resolve('posts') });
   const sidebars = Object.create({});
   files.forEach(i => Object.assign(sidebars, require(`../posts/${i}`).default));
-  writeJSON(path.resolve(vitepressRoot, 'sidebar.json'), sidebars);
+  const sidebarFile = path.resolve(vitepressRoot, 'sidebar.json');
+  writeJSON(sidebarFile, sidebars);
+  console.log(chalk.gray`$`, chalk.magenta`npm run user <username>\n`);
   console.log(chalk.green`[TOC]`);
   const routes = Object.keys(sidebars);
   routes.forEach((i, idx) => (

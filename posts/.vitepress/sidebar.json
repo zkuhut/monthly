@@ -19,10 +19,39 @@
       "link": "/gssggssg/TheEvent/"
     }
   ],
+  "/Jonithan/": [
+    {
+      "text": "About",
+      "link": "/Jonithan/about/"
+    },
+    {
+      "text": "React单测之Jest与Karma技术栈对比",
+      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
+    }
+  ],
   "/lencx/": [
     {
       "text": "About",
       "link": "/lencx/about/"
+    },
+    {
+      "text": "General",
+      "children": [
+        {
+          "text": "怎样贡献一篇文章？",
+          "link": "/lencx/general/how-to-start-monthly/"
+        }
+      ]
+    }
+  ],
+  "/promiseLC/": [
+    {
+      "text": "About",
+      "link": "/promiseLC/about/"
+    },
+    {
+      "text": "Redux and Redux-Toolkit",
+      "link": "/promiseLC/redux-toolkit/"
     }
   ],
   "/sansx/": [
@@ -41,8 +70,18 @@
       "link": "/xiaofuyesnew/about/"
     },
     {
-      "text": "Basic Skills",
-      "link": "/xiaofuyesnew/BasicSkills/"
+      "text": "从零开始搭建一个vite+vue3项目",
+      "link": "/xiaofuyesnew/handleVite/"
+    }
+  ],
+  "/zen/": [
+    {
+      "text": "About",
+      "link": "/zen/about/"
+    },
+    {
+      "text": "Webpack module fedoration",
+      "link": "/zen/mf/"
     }
   ]
 }

@@ -49,10 +49,3 @@
 [![twitter](https://img.shields.io/badge/-xiaofuyesnew-%23323031?style=flat&logo=twitter)](https://twitter.com/xiaofuyesnew)
 ![wechat](https://img.shields.io/badge/-xiaofuyesnew-%23323031?style=flat&logo=wechat)
 [![公众号](https://img.shields.io/badge/公众号-开源说-%23323031?style=flat&labelColor=323031)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwODk3NjE3NQ==&scene=124#wechat_redirect)
-
-<style scoped>
-  p > img,
-  p > a {
-    margin-right: 4px;
-  }
-</style>
