@@ -45,6 +45,7 @@ yarn add vue@next vue-router@next vuex@next
 # pnpm的版本
 pnpm add vue@next vue-router@next vuex@next
 ```
+
 项目需要的依赖，都需要加上`@next`来确保是使用的vue 3相关的版本（都2021年了，还是要加上next🤷‍♂️）。
 
 然后，再安装一些开发环境依赖：
@@ -64,7 +65,7 @@ pnpm add vite @vitejs/plugin-vue @vue/compiler-sfc -D
 
 ### `jsconfig.json`
 
-jsconfig.json文件指定根文件和JavaScript语言服务提供的功能选项。<sup>[参考1]</sup>
+jsconfig.json文件指定根文件和JavaScript语言服务提供的功能选项。[参考1]
 
 如果不明白，直接留一个空json在里面即可：
 
@@ -177,6 +178,7 @@ export default createRouter({
   ]
 })
 ```
+
 历史模式有两种类型：`WebHistory`和`WebHashHistory`——区别在于，前者需要服务器端将域名访问全部指向`index.html`文件，形如`a.com/b/c`，但这种方式需要服务器配置支持； 而后者是通过url的hash来进行route，形如`a.com/#/b/c`，这是常用的一种路由方式，与服务器配置关联不大。
 
 ### `src/store/index.js`
