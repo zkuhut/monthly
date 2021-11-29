@@ -68,6 +68,10 @@
     {
       "text": "About",
       "link": "/xiaofuyesnew/about/"
+    },
+    {
+      "text": "从零开始搭建一个vite+vue3项目",
+      "link": "/xiaofuyesnew/handleVite/"
     }
   ],
   "/zen/": [
