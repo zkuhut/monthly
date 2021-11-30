@@ -9,16 +9,6 @@
       "link": "/AshesOfHistory/vue_form_N_select_1/"
     }
   ],
-  "/gssggssg/": [
-    {
-      "text": "About",
-      "link": "/gssggssg/about/"
-    },
-    {
-      "text": "JavaScript事件捕获冒泡与捕获",
-      "link": "/gssggssg/TheEvent/"
-    }
-  ],
   "/Jonithan/": [
     {
       "text": "About",
@@ -27,6 +17,16 @@
     {
       "text": "React单测之Jest与Karma技术栈对比",
       "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
+    }
+  ],
+  "/gssggssg/": [
+    {
+      "text": "About",
+      "link": "/gssggssg/about/"
+    },
+    {
+      "text": "JavaScript事件捕获冒泡与捕获",
+      "link": "/gssggssg/TheEvent/"
     }
   ],
   "/juvenile/": [
