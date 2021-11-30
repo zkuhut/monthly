@@ -4,4 +4,5 @@ dist
 node_modules
 *.log
 yarn.lock
+pnpm-lock.yaml
 package-lock.json
