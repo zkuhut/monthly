@@ -45,6 +45,10 @@
     {
       "text": "Code-specification",
       "link": "/juvenile/Code-specification/"
+    },
+    {
+      "text": "Code-specification-about",
+      "link": "/juvenile/Code-specification/about"
     }
   ],
   "/lencx/": [
@@ -68,7 +72,7 @@
       "link": "/promiseLC/about/"
     },
     {
-      "text": "redux and redux-toolkit",
+      "text": "Redux and Redux-Toolkit",
       "link": "/promiseLC/redux-toolkit/"
     }
   ],
