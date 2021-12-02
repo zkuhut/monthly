@@ -142,7 +142,7 @@ HTML 注释规范写法应该遵循以下标准：
 
 参考 [www.w3.org] [#Comments]
 
-### 单行注释(1)
+### 单行注释
 
 一般用于简单的描述，如某些状态描述、属性描述等
 
@@ -167,7 +167,7 @@ HTML 注释规范写法应该遵循以下标准：
 </div>
 ```
 
-### 模块注释(2)
+### 模块注释
 
 一般用于描述模块的名称以及模块开始与结束的位置
 
@@ -240,10 +240,7 @@ CSS 样式表是一个序列通用字符集，传输和存储过程中，这些�
 样式书写一般有两种：一种是紧凑格式 (Compact)
 
 ```css
-.jdc {
-  display: block;
-  width: 50px;
-}
+.jdc {display: block; width: 50px;}
 ```
 
 一种是展开格式（Expanded）
@@ -281,20 +278,14 @@ CSS 样式表是一个序列通用字符集，传输和存储过程中，这些�
 
 ```css
 /* 推荐 */
-.jdc {
-}
-.jdc li {
-}
-.jdc li p {
-}
+.jdc {}
+.jdc li {}
+.jdc li p {}
 
 /* 不推荐 */
-* {
-}
-#jdc {
-}
-.jdc div {
-}
+* {}
+#jdc {}
+.jdc div {}
 ```
 
 #### 代码缩进
@@ -304,7 +295,7 @@ CSS 样式表是一个序列通用字符集，传输和存储过程中，这些�
 ```css
 /* 不推荐 */
 .box {
-  width: 100%;
+    width: 100%;
 }
 
 /* 推荐 */
@@ -320,7 +311,7 @@ CSS 样式表是一个序列通用字符集，传输和存储过程中，这些�
   box-shadow: 1px 1px 1px #333, 2px 2px 2px #ccc;
 }
 不推荐： .jdc {
-  box-shadow: 1px 1px 1px #333, 2px 2px 2px #ccc;
+  box-shadow: 1px 1px 1px #333,2px 2px 2px #ccc;
 }
 ```
 
@@ -374,7 +365,7 @@ background-image: -webkit-gradient(
 
 ## CSS 代码规范-注释规范
 
-### 单行注释(2)
+### 单行注释
 
 注释内容第一个字符和最后一个字符都是一个空格字符，单独占一行，行与行之间相隔一行
 
@@ -399,9 +390,9 @@ background-image: -webkit-gradient(
 }
 ```
 
-### 模块注释(1)
+### 模块注释
 
-注释内容第一个字符和最后一个字符都是一个空格字符，/_与 模块信息描述占一行，多个横线分隔符-与_/占一行，行与行之间相隔两行
+注释内容第一个字符和最后一个字符都是一个空格字符，/_ 与 模块信息描述占一行，多个横线分隔符-与_/占一行，行与行之间相隔两行
 
 ```css
 推荐：
@@ -903,7 +894,7 @@ ClassName 的命名应该尽量精短、明确，必须以字母开头命名，�
 
 ### 变量
 
-1. 使用 `const` 定义你的所有引用；避免使用 `var`。 eslint: [prefer-const](https://eslint.org/docs/rules/prefer-const.html), [no-const-assign](https://eslint.org/docs/rules/no-const-assign.html)
+1.  使用 `const` 定义你的所有引用；避免使用 `var`。 eslint: [prefer-const](https://eslint.org/docs/rules/prefer-const.html), [no-const-assign](https://eslint.org/docs/rules/no-const-assign.html)
     > 为什么? 这样能够确保你不能重新赋值你的引用，否则可能导致错误或者产生难以理解的代码。
 
 ```js
@@ -916,7 +907,7 @@ const a = 1;
 const b = 2;
 ```
 
-2. 如果你必须重新赋值你的引用， 使用 `let` 代替 `var`。 >为什么? `let` 是块级作用域，而不像 `var` 是函数作用域.  eslint: [no-var](https://eslint.org/docs/rules/no-var.html)
+2.  如果你必须重新赋值你的引用， 使用 `let` 代替 `var`。 >为什么? `let` 是块级作用域，而不像 `var` 是函数作用域.  eslint: [no-var](https://eslint.org/docs/rules/no-var.html)
 
 ```js
 // bad
@@ -933,7 +924,6 @@ if (true) {
 ```
 
 3. 注意，let 和 const 都是块级范围的。
-
    ```js
    // const 和 let 只存在于他们定义的块中。
    {
@@ -1053,16 +1043,16 @@ const obj = {
 ```js
 // bad
 const bad = {
-  foo: 3,
-  bar: 4,
-  "data-blah": 5,
+  'foo': 3,
+  'bar': 4,
+  'data-blah': 5,
 };
 
 // good
 const good = {
   foo: 3,
   bar: 4,
-  "data-blah": 5,
+  'data-blah': 5,
 };
 ```
 
@@ -1155,7 +1145,7 @@ const nodes = Array.from(foo);
 const nodes = [...foo];
 ```
 
-5. 对于对迭代器的映射，使用 [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 替代展开方法 ... ， 因为它避免了创建中间数组。
+5.  对于对迭代器的映射，使用 [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 替代展开方法 ... ， 因为它避免了创建中间数组。
 
 ```js
 // bad
@@ -1224,21 +1214,18 @@ inbox.filter((msg) => {
 ```js
 // bad
 const arr = [
-  [0, 1],
-  [2, 3],
-  [4, 5],
+  [0, 1], [2, 3], [4, 5],
 ];
 
-const objectInArray = [
-  {
-    id: 1,
-  },
-  {
-    id: 2,
-  },
-];
+const objectInArray = [{
+  id: 1,
+}, {
+  id: 2,
+}];
 
-const numberInArray = [1, 2];
+const numberInArray = [
+  1, 2,
+];
 
 // good
 const arr = [
@@ -1298,7 +1285,7 @@ const second = arr[1];
 const [first, second] = arr;
 ```
 
-3. 对于多个返回值使用对象解构，而不是数组解构。
+3.  对于多个返回值使用对象解构，而不是数组解构。
     > 为什么? 你可以随时添加新的属性或者改变属性的顺序，而不用修改调用方。
 
 ```js
@@ -1390,10 +1377,10 @@ function sayHi(name) {
 
 ```js
 // bad
-const foo = "'this' is \"quoted\"";
+const foo = '\'this\' \i\s \"quoted\"';
 
 // good
-const foo = "'this' is \"quoted\"";
+const foo = '\'this\' is "quoted"';
 const foo = `my name is '${name}'`;
 ```
 
@@ -1627,20 +1614,32 @@ new Date(...[2016, 8, 5]);
 
 ```js
 // bad
-function foo(bar, baz, quux) {
+function foo(bar,
+             baz,
+             quux) {
   // ...
 }
 
 // good
-function foo(bar, baz, quux) {
+function foo(
+  bar,
+  baz,
+  quux,
+) {
   // ...
 }
 
 // bad
-console.log(foo, bar, baz);
+console.log(foo,
+  bar,
+  baz);
 
 // good
-console.log(foo, bar, baz);
+console.log(
+  foo,
+  bar,
+  baz,
+);
 ```
 
 ### 箭头函数
@@ -1712,10 +1711,9 @@ foo(() => {
 
 ```js
 // bad
-["get", "post", "put"].map((httpMethod) =>
-  Object.prototype.hasOwnProperty.call(
+['get', 'post', 'put'].map(httpMethod => Object.prototype.hasOwnProperty.call(
     httpMagicObjectWithAVeryLongName,
-    httpMethod
+    httpMethod,
   )
 );
 
@@ -1745,7 +1743,7 @@ foo(() => {
 );
 
 // bad
-[1, 2, 3].map((x) => {
+[1, 2, 3].map(x => {
   const y = x + 1;
   return x * y;
 });
@@ -1770,7 +1768,7 @@ const itemHeight = (item) =>
 
 // good
 const itemHeight = (item) =>
-  item.height > 256 ? item.largeSize : item.smallSize;
+  (item.height > 256 ? item.largeSize : item.smallSize);
 
 // good
 const itemHeight = (item) => {
@@ -1783,14 +1781,18 @@ const itemHeight = (item) => {
 
 ```js
 // bad
-(foo) => bar;
+(foo) =>
+  bar;
 
-(foo) => bar;
+(foo) =>
+  (bar);
 
 // good
 (foo) => bar;
-(foo) => bar;
-(foo) => bar;
+(foo) => (bar);
+(foo) => (
+   bar
+)
 ```
 
 ### 类和构造器
@@ -2566,7 +2568,8 @@ function bar() {
 if (test) {
   thing1();
   thing2();
-} else {
+} 
+else {
   thing3();
 }
 
@@ -3172,7 +3175,7 @@ const totalScore = this.reviewScore.toString(); // isn’t guaranteed to return 
 const totalScore = String(this.reviewScore);
 ```
 
-3. 数字类型：使用 Number 进行类型铸造和 parseInt 总是通过一个基数来解析一个字符串。eslint: [radix](https://eslint.org/docs/rules/radix) [no-new-wrappers](https://eslint.org/docs/rules/no-new-wrappers)
+3.  数字类型：使用 Number 进行类型铸造和 parseInt 总是通过一个基数来解析一个字符串。eslint: [radix](https://eslint.org/docs/rules/radix) [no-new-wrappers](https://eslint.org/docs/rules/no-new-wrappers)
 
 ```js
 const inputValue = "4";
