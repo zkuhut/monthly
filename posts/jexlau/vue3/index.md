@@ -3,9 +3,9 @@
 ## 1. 环境要求
 
 
--  [node](www.nodejs.org)：Node.js 版本 >= 12.0.0，目前使用版本：v14.16.0 
--  包管理工具：npm/yarn，目前使用的是 yarn：v1.22.10 
--  编辑器：VSCode 
+-  [node](https://www.nodejs.org)：Node.js 版本 >= 12.0.0，目前使用版本：v14.16.0
+-  包管理工具：npm/yarn，目前使用的是 yarn：v1.22.10
+-  编辑器：VSCode
 
 
 
@@ -106,7 +106,7 @@ export default router
 
 
 -  创建`src/views`目录，然后分别添加 login 目录，member 目录，device 目录，operator 目录，point-group目录，scenario 目录，wbs 目录，每个目录添加 Index.vue 文件，作为每个模块的入口文件，如下图：
--  更新项目路由`src/router/index.ts`中的 router 如下： 
+-  更新项目路由`src/router/index.ts`中的 router 如下：
 
 
 
@@ -565,4 +565,3 @@ const locale = ref<string>(getLocale())
 
 
 4. 使用语法：$t("key")
-
