@@ -39,6 +39,30 @@
       "link": "/gssggssg/TheEvent/"
     }
   ],
+  "/jexlau/": [
+    {
+      "text": "About",
+      "link": "/jexlau/about/"
+    },
+    {
+      "text": "Vue3",
+      "link": "/jexlau/vue3/"
+    }
+  ],
+  "/juvenile/": [
+    {
+      "text": "About",
+      "link": "/juvenile/about/"
+    },
+    {
+      "text": "Code-specification",
+      "link": "/juvenile/Code-specification/"
+    },
+    {
+      "text": "Code-specification-about",
+      "link": "/juvenile/Code-specification/about"
+    }
+  ],
   "/lencx/": [
     {
       "text": "About",
