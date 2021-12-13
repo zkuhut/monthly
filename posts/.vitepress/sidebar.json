@@ -29,6 +29,16 @@
       "link": "/LOVEwitch/webpack/"
     }
   ],
+  "/alphaz/": [
+    {
+      "text": "About",
+      "link": "/alphaz/about/"
+    },
+    {
+      "text": "Get substring on bash",
+      "link": "/alphaz/get_substring_on_bash/"
+    }
+  ],
   "/gssggssg/": [
     {
       "text": "About",
@@ -53,6 +63,10 @@
     {
       "text": "About",
       "link": "/juvenile/about/"
+    },
+    {
+      "text": "How-to-learning",
+      "link": "/juvenile/How-to-learning/"
     },
     {
       "text": "Code-specification",
