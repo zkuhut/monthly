@@ -1,4 +1,14 @@
 {
+  "/alphaz/": [
+    {
+      "text": "About",
+      "link": "/alphaz/about/"
+    },
+    {
+      "text": "Get substring on bash",
+      "link": "/alphaz/get_substring_on_bash/"
+    }
+  ],
   "/AshesOfHistory/": [
     {
       "text": "About",
@@ -9,34 +19,19 @@
       "link": "/AshesOfHistory/vue_form_N_select_1/"
     }
   ],
-  "/Jonithan/": [
+  "/candy/": [
     {
       "text": "About",
-      "link": "/Jonithan/about/"
+      "link": "/candy/about/"
     },
     {
-      "text": "React单测之Jest与Karma技术栈对比",
-      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
-    }
-  ],
-  "/LOVEwitch/": [
-    {
-      "text": "About",
-      "link": "/LOVEwitch/about/"
-    },
-    {
-      "text": "webpack",
-      "link": "/LOVEwitch/webpack/"
-    }
-  ],
-  "/alphaz/": [
-    {
-      "text": "About",
-      "link": "/alphaz/about/"
-    },
-    {
-      "text": "Get substring on bash",
-      "link": "/alphaz/get_substring_on_bash/"
+      "text": "Vue",
+      "children": [
+        {
+          "text": "vue3 响应式原理",
+          "link": "/candy/vue/ref/"
+        }
+      ]
     }
   ],
   "/gssggssg/": [
@@ -57,6 +52,16 @@
     {
       "text": "Vue3",
       "link": "/jexlau/vue3/"
+    }
+  ],
+  "/Jonithan/": [
+    {
+      "text": "About",
+      "link": "/Jonithan/about/"
+    },
+    {
+      "text": "React单测之Jest与Karma技术栈对比",
+      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
     }
   ],
   "/juvenile/": [
@@ -90,6 +95,16 @@
           "link": "/lencx/general/how-to-start-monthly/"
         }
       ]
+    }
+  ],
+  "/LOVEwitch/": [
+    {
+      "text": "About",
+      "link": "/LOVEwitch/about/"
+    },
+    {
+      "text": "webpack",
+      "link": "/LOVEwitch/webpack/"
     }
   ],
   "/promiseLC/": [
