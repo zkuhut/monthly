@@ -46,7 +46,7 @@ yarn add vue@next vue-router@next vuex@next
 pnpm add vue@next vue-router@next vuex@next
 ```
 
-项目需要的依赖，都需要加上`@next`来确保是使用的vue 3相关的版本（都2021年了，还是要加上next🤷‍♂️）。
+项目需要的依赖，都需要加上`@next`来确保是使用的 vue 3 相关的版本（都2021年了，还是要加上 next 🤷‍♂️）。
 
 然后，再安装一些开发环境依赖：
 

@@ -1,9 +1,5 @@
 # About xiaofuyesnew
 
-<script setup>
-import About from 'posts/xiaofuyesnew/about/About.vue'
-</script>
-
 喜欢折腾，欢迎来唠，话题包括但不仅限于以下各个方面：
 
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E34C26?style=flat&logo=html5&logoColor=ffffff)
