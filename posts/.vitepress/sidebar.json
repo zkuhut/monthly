@@ -1,34 +1,4 @@
 {
-  "/AshesOfHistory/": [
-    {
-      "text": "About",
-      "link": "/AshesOfHistory/about/"
-    },
-    {
-      "text": "vue表单N选一必填逻辑",
-      "link": "/AshesOfHistory/vue_form_N_select_1/"
-    }
-  ],
-  "/Jonithan/": [
-    {
-      "text": "About",
-      "link": "/Jonithan/about/"
-    },
-    {
-      "text": "React单测之Jest与Karma技术栈对比",
-      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
-    }
-  ],
-  "/LOVEwitch/": [
-    {
-      "text": "About",
-      "link": "/LOVEwitch/about/"
-    },
-    {
-      "text": "webpack",
-      "link": "/LOVEwitch/webpack/"
-    }
-  ],
   "/alphaz/": [
     {
       "text": "About",
@@ -37,6 +7,16 @@
     {
       "text": "Get substring on bash",
       "link": "/alphaz/get_substring_on_bash/"
+    }
+  ],
+  "/AshesOfHistory/": [
+    {
+      "text": "About",
+      "link": "/AshesOfHistory/about/"
+    },
+    {
+      "text": "vue表单N选一必填逻辑",
+      "link": "/AshesOfHistory/vue_form_N_select_1/"
     }
   ],
   "/candy/": [
@@ -74,6 +54,16 @@
       "link": "/jexlau/vue3/"
     }
   ],
+  "/Jonithan/": [
+    {
+      "text": "About",
+      "link": "/Jonithan/about/"
+    },
+    {
+      "text": "React单测之Jest与Karma技术栈对比",
+      "link": "/Jonithan/ReactUnitTest-Jest-vs-Karma/"
+    }
+  ],
   "/juvenile/": [
     {
       "text": "About",
@@ -96,6 +86,10 @@
     {
       "text": "About",
       "link": "/jxderic/about/"
+    },
+    {
+      "text": "Refactor",
+      "link": "/jxderic/refactor/"
     }
   ],
   "/lencx/": [
@@ -111,6 +105,16 @@
           "link": "/lencx/general/how-to-start-monthly/"
         }
       ]
+    }
+  ],
+  "/LOVEwitch/": [
+    {
+      "text": "About",
+      "link": "/LOVEwitch/about/"
+    },
+    {
+      "text": "webpack",
+      "link": "/LOVEwitch/webpack/"
     }
   ],
   "/promiseLC/": [
@@ -135,12 +139,16 @@
   ],
   "/xiaofuyesnew/": [
     {
-      "text": "About",
+      "text": "关于xiaofuyesnew",
       "link": "/xiaofuyesnew/about/"
     },
     {
       "text": "从零开始搭建一个vite+vue3项目",
       "link": "/xiaofuyesnew/handleVite/"
+    },
+    {
+      "text": "React 图片预加载组件的实现",
+      "link": "/xiaofuyesnew/imagePreload/"
     }
   ],
   "/zen/": [
