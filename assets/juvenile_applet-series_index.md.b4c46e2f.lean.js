@@ -1,0 +1,1 @@
+import{_ as e,c as i,o as r,d as t}from"./app.0cb80d29.js";const f='{"title":"\u5C0F\u7A0B\u5E8F\u7CFB\u5217","description":"","frontmatter":{},"relativePath":"juvenile/applet-series/index.md","lastUpdated":1642996261784}',l={},a=t("",7),o=[a];function n(p,d,_,s,c,h){return r(),i("div",null,o)}var v=e(l,[["render",n]]);export{f as __pageData,v as default};
