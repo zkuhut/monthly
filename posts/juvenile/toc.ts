@@ -5,6 +5,7 @@ export default {
     { text: 'applet-series', link: '/juvenile/applet-series/' },
     { text: 'Code-specification', link: '/juvenile/Code-specification/' },
     { text: 'Code-specification-about', link: '/juvenile/Code-specification/about' },
+    { text: 'share', link: '/juvenile/share/' },
     // other post links
   ],
 } as TOC;
