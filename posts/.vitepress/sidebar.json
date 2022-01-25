@@ -7,6 +7,10 @@
     {
       "text": "Get substring on bash",
       "link": "/alphaz/get_substring_on_bash/"
+    },
+    {
+      "text": "Analyse nic traffic",
+      "link": "/alphaz/analyse_nic_traffic/"
     }
   ],
   "/AshesOfHistory/": [
@@ -157,6 +161,16 @@
     {
       "text": "React 图片预加载组件的实现",
       "link": "/xiaofuyesnew/imagePreload/"
+    },
+    {
+      "text": "利用腾讯云开发实现web端的小程序扫码授权",
+      "link": "/xiaofuyesnew/miniAuth/",
+      "children": [
+        {
+          "text": "原理篇",
+          "link": "/xiaofuyesnew/miniAuth/intro/"
+        }
+      ]
     }
   ],
   "/zen/": [
