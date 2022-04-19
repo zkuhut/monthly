@@ -7,6 +7,7 @@ export default {
     { text: 'Code-specification-about', link: '/juvenile/Code-specification/about' },
     { text: 'share', link: '/juvenile/share/' },
     { text: 'business-oriented', link: '/juvenile/business-oriented/' },
+    { text: 'take-nodes', link: '/juvenile/take-nodes/' },
     // other post links
   ],
 } as TOC;
